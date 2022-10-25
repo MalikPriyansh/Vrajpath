@@ -1,0 +1,293 @@
+
+
+.nav-item{
+  color: black!important; 
+}
+
+.nav{
+  margin-left: 30%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.9rem;
+}
+
+.logo
+{
+  width:  3rem;
+  height: 2rem;
+}
+
+.getquotation{
+  font-size: 0.9rem;
+  font-family: 'Quicksand', sans-serif;
+  padding: 1% 2%;
+  background-color: #FA7070;
+  border:  1px white;
+  font-weight: 600;
+  color: white;
+  border-radius: 0 20% 0 20%;
+}
+
+.defi{
+  font-size: 2.5rem !important;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10%;
+  color: black;
+}
+
+.defi-text{
+  text-align: left;
+  color: black;
+  padding-left: 5%;
+  padding-top: 4%;
+  text-align: center;
+}
+
+.getstarted{
+  font-size: 1rem;
+  font-family: 'Quicksand', sans-serif;
+  padding: 2% 4%;
+  background-color: #FA7070;
+  border:  1px white;
+  font-weight: 600;
+  color: white;
+  border-radius: 0 20% 0 20%;
+  box-shadow: 0 5px 15px 1px grey;
+}
+.row1{
+  height: 39.5rem;
+}
+.illustration1{
+  /* max-width: 100%;
+  height: 25rem; */
+  background-image: url('images/Frame 1 (1).png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.heading1{
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  margin-top: 2%;
+  
+}
+
+.heading2{
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.categories{
+  margin-top: 5% !important;
+  margin-left: 6% !important;
+}
+
+.designing{
+  height: 12rem;
+  width: 17rem;
+  border-radius: 3% 3% 0 0;
+  margin-left: 0 !important;
+}
+
+.card-title{
+  font-family: 'Quicksand', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+font-weight: bold ;
+}
+
+.card-back{
+  background-color: #319DA0;
+}
+
+.color{
+  color: white;
+}
+
+.card-text1{
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  color: grey;
+}
+
+.card-text2{
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  color: white;
+}
+
+.categories2{
+  margin-top: 10% !important;
+  border-radius: 3%;
+  margin-left: 6% !important;
+}
+
+.categories3{
+  border-radius: 3%;
+  margin-top: 15% !important;
+  margin-left: 6% !important;
+}
+
+.card{
+  box-shadow: 15px 15px 30px 15px grey;
+}
+
+.categories4{
+  border: 2px solid gainsboro;
+  border-radius: 3%;
+  height: 24rem;
+  margin-top: 25% !important;
+}
+
+.untitled{
+  background-image: url('images/Frame 1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 25rem;
+}
+
+.text1{
+  margin-top: 20%;
+  font-weight: bold;
+}
+
+.learnmore{
+  border-radius: 10%;
+  background-color: #FA7070;
+  border:  1px white;
+  padding: 2% 4%;
+}
+
+.text2{
+  margin-top: 45%;
+  font-weight: bold;
+}
+.untitled1{
+  background-image: url('images/Untitled (4).png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30rem;
+}
+
+.frame3{
+  height: auto;
+  max-width: 100%;
+}
+
+.heading3{
+  text-align: center;
+  font-weight: bold;
+}
+
+.text3{
+  text-align: center;
+  margin-top: 2%;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  color: grey;
+}
+
+.review{
+  margin-top: 5%;
+}
+
+.customer_name{
+  font-weight: 600;
+}
+
+.country_name{
+  font-weight: 600;
+}
+
+.review_text{
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  color: grey;
+}
+
+.review2{
+  border: 3px solid grey!important;
+  padding: 2px 5px;
+  border-radius: 5%;
+  width: 250px !important;
+  margin-left: 8%;
+  padding: 2% 4%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.reviewmid{
+  border: 3px solid grey!important;
+  padding: 2px 5px;
+  border-radius: 5%;
+  width: 250px !important;
+  margin-left: 8%;
+  box-shadow: 0 5px 15px 1px  grey;
+  padding: 2% 4%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.downloadbtn1{
+  padding-left: 23% !important;
+  padding-right: 5%;
+}
+
+#li{
+  list-style-type: none;
+  font-size: 0.8rem;
+  padding-bottom: 10%;
+  text-align: left;
+  color: grey;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.footerh5{
+  color: black;
+  padding-left: 15%;
+}
+
+#footer{
+  margin-top: 7%;
+  background-color: white;
+  padding-top: 5%;
+}
+
+.icons{
+  height: 2rem;
+  width: 2rem;;
+}
+.icons1{
+  height: 2rem;
+  width: 2rem;;
+  margin-left: 4%;
+}
+
+.leftarrow{
+  width: 5%;
+  height: 50px;
+}
+
+.arrowimg{
+  height: 5%;
+  width: 2%;
+  border:  1px solid white!important;
+  border-radius: 100%;
+  margin-top: 10%;
+}
+
+.comp{
+  margin-top: 7%;
+}
+
+.comp-icon{
+  height: 75px;
+  width: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
