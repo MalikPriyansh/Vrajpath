@@ -62,63 +62,72 @@ function Review(){
                             <Carousel.Item>
                             <div className='container'>
                                 <div className='row'>
-                                    <div className='col-lg-4 col-12 review2'>
-                                        <h4 className='customer_name'>Amazon</h4>
-                                        <h5 className='country_name'>San Francisco</h5>
-                                        <p className='review_text'>Grerat Company for developing your softwares and services to add values to your company with the .</p>
+                                    <div className='col-lg-1 col-12'></div>
+                                    <div className='col-lg-5 col-12'>
+                                        <p className='customer'>Customer Reviews</p>
+                                        <h1 className='cust'>So great!<br/>Very Thorough<br />And On time</h1>
+                                        <p className='cust1'>Very pleasasnt and smooth servicing . It was on time .<br /> Came in and job done
+                                            , definitely recommend to others.
+                                        </p>
                                     </div>
-                                    <div className='col-lg-4 col-12 reviewmid'>
+                                    <div className='col-lg-7 col-12 reviewmid'>
                                         <h3 className='customer_name'>Amazon</h3>
                                         <h4 className='country_name'>San Francisco</h4>
                                         <p className='reviewtext'>Grerat Company for developing your softwares and services to add values to your company with the .</p>
                                     </div>
-                                    <div className='col-lg-4 col-12 review2'>
+                                    {/* <div className='col-lg-4 col-12 review2'>
                                         <h3 className='customer_name'>Amazon</h3>
                                         <h4 className='country_name'>San Francisco</h4>
                                         <p className='review_text'>Grerat Company for developing your softwares and services to add values to your company with the .</p>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             </Carousel.Item>
                             <Carousel.Item>
                             <div className='container'>
                                 <div className='row'>
-                                    <div className='col-lg-4 col-12 review2'>
-                                        <h3 className='customer_name'>Amazon</h3>
-                                        <h4 className='country_name'>San Francisco</h4>
-                                        <p className='review_text'> Grerat Company for developing your softwares and services to add values to your company with the .</p>
+                                <div className='col-lg-1 col-12'></div>
+                                    <div className='col-lg-5 col-12'>
+                                        <p className='customer'>Customer Reviews</p>
+                                        <h1 className='cust'>So great!<br/>Very Thorough<br />And On time</h1>
+                                        <p className='cust1'>Very pleasasnt and smooth servicing . It was on time .<br /> Came in and job done
+                                            , definitely recommend to others.
+                                        </p>
                                     </div>
                                     <div className='col-lg-4 col-12 reviewmid'>
                                         <h3 className='customer_name'>Amazon</h3>
                                         <h4 className='country_name'>San Francisco</h4>
                                         <p className='review_text'>Grerat Company for developing your softwares and services to add values to your company with the .</p>
                                     </div>
-                                    <div className='col-lg-4 col-12 review2'>
+                                    {/* <div className='col-lg-4 col-12 review2'>
                                         <h3 className='customer_name'>Amazon</h3>
                                         <h4 className='country_name'>San Francisco</h4>
                                         <p className='review_text'>Grerat Company for developing your softwares and services to add values to your company with the .</p>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             </Carousel.Item>
                             <Carousel.Item>
                             <div className='container'>
                                 <div className='row'>
-                                    <div className='col-lg-4 col-12 review2'>
-                                        <h3>Amazon</h3>
-                                        <h4>San Francisco</h4>
-                                        <p>Grerat Company for developing your softwares and services to add values to your company with the .</p>
+                                <div className='col-lg-1 col-12'></div>
+                                    <div className='col-lg-5 col-12'>
+                                        <p className='customer'>Customer Reviews</p>
+                                        <h1 className='cust'>So great!<br/>Very Thorough<br />And On time</h1>
+                                        <p className='cust1'>Very pleasasnt and smooth servicing . It was on time .<br /> Came in and job done
+                                            , definitely recommend to others.
+                                        </p>
                                     </div>
                                     <div className='col-lg-4 col-12 reviewmid'>
                                         <h3>Amazon</h3>
                                         <h4>San Francisco</h4>
                                         <p>Grerat Company for developing your softwares and services to add values to your company with the .</p>
                                     </div>
-                                    <div className='col-lg-4 col-12 review2'>
+                                    {/* <div className='col-lg-4 col-12 review2'>
                                         <h3>Amazon</h3>
                                         <h4>San Francisco</h4>
                                         <p>Grerat Company for developing your softwares and services to add values to your company with the .</p>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             </Carousel.Item>

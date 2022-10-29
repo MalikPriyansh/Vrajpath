@@ -4,6 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Review from './reviews';
 import Rating from '@mui/material/Rating';
+import { motion } from "framer-motion";
+import { rgbToHex } from '@mui/material';
 
 function Homescreen(){
     return (
@@ -11,6 +13,7 @@ function Homescreen(){
             <Navbar  expand="lg">
                 <Container className="navbar">
                     <Nav.Link><img className="logo" src="/images/vrajpath.jpg" /></Nav.Link>
+                    
                     <Navbar.Brand href="#">Vrajpath itech LLP</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="basic-navbar-nav">
@@ -25,82 +28,197 @@ function Homescreen(){
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            
-            <div className='container '>
+            <div className='head'>
+            <div className='container'>
                 <div className='row row1'>
-                    <div className='col-lg-6 col-12 defi'>
-                        <p>Collaboration | Innovation - <br />Simplified</p>
+                    
+                    <motion.div className='col-lg-5 col-12'
+                        initial={{opacity:0}}
+                        animate={{opacity:1}}
+                        transition={{delay:0.2,duration:2}}>
+                            
+                        <p className='defi'>Collaboration | Innovation - <br />Simplified</p>
                         <h6 className="defi-text">We make technology Accessible</h6>
                             <button className='getstarted' >Get Started</button>
-                    </div>
-                    <div className='col-lg-6 col-12 illustration1'>
-                        {/* <img className='illustration1' src='/images/Untitled (4).png'></img> */}
-                    </div>
+                    </motion.div>
+                    <a id='scroll-btn' href='#section2'></a>
+                    <motion.div className='col-lg-7 col-12 illustration1'
+                        initial={{opacity:0}}
+                        animate={{opacity:1}}
+                        transition={{delay:0.2,duration:2}}>
+                        <img className='illustration1' src='images/software-engineer.png'></img>
+                    </motion.div>
                 </div>
+            </div>   
             </div>
-            <h1 className='heading1'>Services !</h1>
-            <div className='container '>
-                <div className='row'> 
+            <img src='images/Rectangle 1.png'></img>
+            <div className='container' id='section2'
+                initial={{opacity : 0}}
+                animate = {{opacity: 1}}
+                transition={{delay:1,duration:4}}
+                >
+                <div className='row'>
+                    
+                    <div className='col-lg-2 col-12'>
+                        <h3 className='heading1'>Services</h3>
+                        <p className='heading_text'>It's All About Customers</p>
+                    </div>
+                    <div className='col-lg-9 col-12 services'>
+                        <p className='review_text'>Build your website with the MERN/MEAN stack. And showcase your portfolio to your customers. <br />
+                        Make your product features smart with the power of AI and ML.</p>
+                        <div className='row row3'>
+                            <motion.div className='col-lg-4'
+                                 whileHover={{
+                                    scale:1.1}}>
+                                
+                                    <img className='card-img-top cardimg' src='images/development.png' />
+                                    <div className='card-body'>
+                                        <h6 className='card-title text-center'>Web Development</h6>
+                                    </div>
+                                
+                            </motion.div>
+                            <motion.div className='col-lg-4'
+                                 whileHover={{
+                                    scale:1.1}}>
+                                
+                                    <img className='card-img-top cardimg' src='images/information.png' />
+                                    <div className='card-body'>
+                                        <h6 className='card-title text-center'>Mobile Application</h6>
+                                    </div>
+                                
+                            </motion.div>
+                            <motion.div className='col-lg-4'
+                                 whileHover={{
+                                    scale:1.1}}>
+                                
+                                    <img className='card-img-top cardimg' src='images/laptop.png' />
+                                    <div className='card-body'>
+                                        <h6 className='card-title text-center'>QA Testing And Security</h6>
+                                    </div>
+                            
+                                
+                            </motion.div>
+                        </div>
+                        <div className='row row2'>
+                            <motion.div className='col-lg-4'
+                                 whileHover={{
+                                    scale:1.1}}>
+                                
+                                    <img className='card-img-top cardimg' src='images/coding (1).png' />
+                                    <div className='card-body'>
+                                        <h6 className='card-title text-center'>AI/ML</h6>
+                                    </div>
+                                
+                            </motion.div>
+                            <motion.div className='col-lg-4'  
+                            whileHover={{
+                                scale:1.1}}>
+                                
+                                    <img className='card-img-top cardimg' src='images/data-analytics.png' />
+                                    <div className='card-body'>
+                                        <h6 className='card-title text-center'>Data Analytics</h6>
+                                    </div>
+                            
+                            </motion.div>
+                            <motion.div className='col-lg-4'
+                             whileHover={{
+                                scale:1.1}}>
+                                
+                                    <img className='card-img-top cardimg' src='images/social-media.png' />
+                                    <div className='card-body'>
+                                        <h6 className='card-title text-center'>Digital Marketing</h6>
+                                    </div>
+                               
+                            </motion.div>
+                        </div>
+                    </div>
+                
+                {/* <div className='row'> 
                     <div className="col-lg-3 col-12 categories">
-                        <div className='card'>
-                            <img className='card-img-top' src='images/designing.jpg' />
+                        <motion.div className='card' 
+                        whileHover={{
+                            scale:1.1,
+                            boxShadow:"0px 0px 8px rgb(128,128,128)"
+                        }}>
+                            <img className='card-img-top cardimg' src='images/development.png' />
                             <div className='card-body'>
                                 <h4 className='card-title '>Web Development</h4>
                                 <p className='card-text card-text1'>Build your website with the MERN/MEAN stack. And showcase your portfolio to your customers.</p>
                             </div>
-                        </div>
+                        </motion.div>
                     </div>
                     
                     <div className="col-lg-3 col-12 categories2">
-                        <div className='card'>
-                            <img className='card-img-top' src='images/logo.jpg' />
-                            <div className='card-body card-back'>
-                                <h4 className='card-title color'>Mobile Application</h4>
-                                <p className='card-text card-text2'>Develop your Hybrid or Mobile Application with Ionic, React Native or Flutter.</p>
+                        <motion.div className='card'
+                        whileHover={{
+                            scale:1.1,
+                            boxShadow:"0px 0px 8px rgb(128,128,128)"
+                        }}>
+                            <img className='card-img-top cardimg' src='images/information.png' />
+                            <div className='card-body'>
+                                <h4 className='card-title'>Mobile Application</h4>
+                                <p className='card-text card-text1'>Develop your Hybrid or Mobile Application with Ionic, React Native or Flutter.</p>
                             </div>
-                        </div>
+                        </motion.div>
                     </div>
                     
                     <div className="col-lg-3 col-12 categories3">
-                        <div className='card'>
-                            <img className="card-img-top" src="/images/digital marketing.jpg" />
+                        <motion.div className='card' 
+                        whileHover={{
+                            scale:1.1,
+                            boxShadow:"0px 0px 8px rgb(128,128,128)"
+                        }}>
+                            <img className="card-img-top cardimg" src="/images/social-media.png" />
                             <div className='card-body '>
                                 <h4 className='card-title '>Digital Marketing</h4>
                                 <p className='card-text card-text1'>Increase your product reach across demographics and connect with your target audience.</p>
                             </div>
-                        </div>
+                        </motion.div>
                     </div>
                 </div>
                 <div className='row'>
                     <div className='col-lg-3 col-12 categories'>
-                        <div className='card'>
-                            <img className='card-img-top' src='images/AIML.jpg' />
+                        <motion.div className='card'
+                        whileHover={{
+                            scale:1.1,
+                            boxShadow:"0px 0px 8px rgb(128,128,128)"
+                        }}>
+                            <img className='card-img-top cardimg' src='images/coding (1).png' />
                             <div className='card-body '>
                                 <h3 className='card-title '>AI/ML</h3>
                                 <p className='card-text card-text1'>Make your product features smart with the power of AI and ML.</p>
                             </div>
-                        </div>
+                        </motion.div>
                     </div>
                     <div className='col-lg-3 col-12 categories2'>
-                        <div className='card'>
-                                <img className='card-img-top' src='images/Data Analytics.jpg' />
-                                <div className='card-body card-back'>
-                                    <h4 className='card-title color'>Data Analytics</h4>
-                                    <p className='card-text card-text2'>Use your data for analysis to take important business decisions and reach your targets.</p>
+                        <motion.div className='card'
+                        whileHover={{
+                            scale:1.1,
+                            boxShadow:"0px 0px 8px rgb(128,128,128)"
+                        }}>
+                                <img className='card-img-top cardimg' src='images/data-analytics.png' />
+                                <div className='card-body'>
+                                    <h4 className='card-title'>Data Analytics</h4>
+                                    <p className='card-text card-text1'>Use your data for analysis to take important business decisions and reach your targets.</p>
                                 </div>
-                            </div>
+                            </motion.div>
                         </div>
                     <div className='col-lg-3 col-12 categories3'>
-                        <div className='card'>
-                            <img className='card-img-top' src='images/Testing.jpg' />
+                        <motion.div className='card'
+                        whileHover={{
+                            scale:1.1,
+                            boxShadow:"0px 0px 8px rgb(128,128,128)"
+                        }}>
+                            <img className='card-img-top cardimg' src='images/laptop.png' />
                             <div className='card-body'>
                                 <h4 className='card-title '>QA Testing and Security Audits</h4>
                                 <p className='card-text card-text1'>Ensure the product quality with the industry's best standards for improved performance and user experience.</p>
                             </div>
-                        </div>
+                        </motion.div>
                     </div>
-                </div>
-            </div> 
+                    </div >*/}
+                    </div>
+            </div>
             <h1 className='heading2'>Innovation !</h1>
             <div className="container">
                 <div className='row'>

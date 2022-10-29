@@ -20,57 +20,108 @@
   font-size: 0.9rem;
   font-family: 'Quicksand', sans-serif;
   padding: 1% 2%;
-  background-color: #FA7070;
+  background-color: orange;
   border:  1px white;
   font-weight: 600;
   color: white;
-  border-radius: 0 20% 0 20%;
+  border-radius: 10px;
 }
 
 .defi{
-  font-size: 2.5rem !important;
+  font-size: 1.5rem !important;
+  text-transform: uppercase;
   text-align: center;
   font-weight: bold;
-  padding-top: 10%;
-  color: black;
+  margin-top: 45% !important;
+  color: white;
+  position: relative;
 }
 
 .defi-text{
-  text-align: left;
-  color: black;
-  padding-left: 5%;
-  padding-top: 4%;
+  color: white;
   text-align: center;
+  position: relative;
 }
+
+/* .head{
+} */
 
 .getstarted{
   font-size: 1rem;
   font-family: 'Quicksand', sans-serif;
   padding: 2% 4%;
-  background-color: #FA7070;
+  background-color: orange;
   border:  1px white;
   font-weight: 600;
   color: white;
-  border-radius: 0 20% 0 20%;
+  border-radius : 10px;
   box-shadow: 0 5px 15px 1px grey;
+  margin-top: 8%;
+  margin-left: 35%;
+  position: relative;
 }
 .row1{
   height: 39.5rem;
 }
 .illustration1{
-  /* max-width: 100%;
-  height: 25rem; */
-  background-image: url('images/Frame 1 (1).png');
-  background-repeat: no-repeat;
-  background-size: contain;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  
+}
+
+a#scroll-btn{
+  position: absolute;
+  height: 8em;
+  width: 4.25em;
+  border: 0.5em solid #90EE90;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 40em;
+  border-radius: 3em;
+}
+
+a#scroll-btn::before{
+  position: absolute;
+  content: "";
+  margin: auto;
+  left: 0;
+  right: 0;
+  height: 1.2em;
+  width: 1.2em;
+  background-color: #90EE90;
+  border-radius: 50%;
+  animation: move-down 2s infinite;
+}
+
+@keyframes move-down{
+  80%{
+    opacity: 0.5;
+  }
+  100%{
+    transform: translateY(5em);
+    opacity: 0;
+  }
+}
+
+.head{
+  background-image: url('images/5040007.jpg');
 }
 
 .heading1{
-  text-align: center;
-  font-weight: bold;
-  color: black;
-  margin-top: 2%;
+  margin-top: 10% !important;
+  color: orange;
   
+}
+
+.heading_text{
+  /* margin-top: -20%; */
+  text-align: left;
+  color: rgb(2, 18, 31);
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 1.6;
 }
 
 .heading2{
@@ -99,8 +150,12 @@ font-family: 'Titillium Web', sans-serif;
 font-weight: bold ;
 }
 
-.card-back{
-  background-color: #319DA0;
+.cardimg{
+  height: 80px;
+  max-width: 80px;
+  /* margin: auto; */
+  /* padding-top: 7%; */
+  margin-left: 35% !important;
 }
 
 .color{
@@ -131,8 +186,24 @@ font-weight: bold ;
   margin-left: 6% !important;
 }
 
+.services{
+  padding-top: 10% !important;
+  margin-left: 5%;
+  background-color: aliceblue;
+  border-radius: 150px;
+  height: 35rem;
+}
+
+.row2{
+  margin-top: 4% !important;
+}
+
+.row3{
+  padding-top: 5% !important;
+}
+
 .card{
-  box-shadow: 15px 15px 30px 15px grey;
+  box-shadow: 5px 5px 5px 5px rgb(207, 206, 206);
 }
 
 .categories4{
@@ -143,7 +214,7 @@ font-weight: bold ;
 }
 
 .untitled{
-  background-image: url('images/Frame 1.png');
+  background-image: url('images/Humaaans\ -\ 1.png');
   background-repeat: no-repeat;
   background-size: contain;
   height: 25rem;
@@ -162,11 +233,11 @@ font-weight: bold ;
 }
 
 .text2{
-  margin-top: 45%;
+  margin-top: 25%;
   font-weight: bold;
 }
 .untitled1{
-  background-image: url('images/Untitled (4).png');
+  background-image: url('images/Humaaans.png');
   background-repeat: no-repeat;
   background-size: contain;
   height: 30rem;
@@ -190,6 +261,20 @@ font-weight: bold ;
   color: grey;
 }
 
+.customer{
+  font-weight: 700;
+  color: orange;
+}
+
+.cust{
+  font-weight: 700;
+}
+
+.cust1{
+  padding-top: 8%;
+  color: grey;
+}
+
 .review{
   margin-top: 5%;
 }
@@ -206,6 +291,7 @@ font-weight: bold ;
   font-family: 'Quicksand', sans-serif;
   font-family: 'Titillium Web', sans-serif;
   color: grey;
+  text-align: center;
 }
 
 .review2{
